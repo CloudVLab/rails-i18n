@@ -1,12 +1,5 @@
 ---
-zh-TW:
-  activerecord:
-    errors:
-      messages:
-        record_invalid: "校驗失敗: %{errors}"
-        restrict_dependent_destroy:
-          has_one: 由於 %{record} 需要此記錄，所以無法移除記錄
-          has_many: 由於 %{record} 需要此記錄，所以無法移除記錄
+zh_TW:
   date:
     abbr_day_names:
     - 周日
@@ -17,7 +10,7 @@ zh-TW:
     - 周五
     - 周六
     abbr_month_names:
-    -
+    - 
     - 1月
     - 2月
     - 3月
@@ -40,10 +33,10 @@ zh-TW:
     - 星期六
     formats:
       default: "%Y-%m-%d"
-      long: "%Y年%m月%d日"
-      short: "%m月%d日"
+      long: "%Y年%b%d日"
+      short: "%b%d日"
     month_names:
-    -
+    - 
     - 一月
     - 二月
     - 三月
@@ -96,9 +89,6 @@ zh-TW:
       x_months:
         one: 一個月
         other: "%{count} 個月"
-      x_years:
-        one: 一年
-        other: "%{count} 年"
       x_seconds:
         one: 一秒
         other: "%{count} 秒"
@@ -113,7 +103,7 @@ zh-TW:
     format: "%{attribute} %{message}"
     messages:
       accepted: 必須是可被接受的
-      blank: 不能為空白
+      blank: 不能是空白字元
       present: 必須是空白
       confirmation: 兩次輸入須一致
       empty: 不能留空
@@ -126,11 +116,13 @@ zh-TW:
       invalid: 是無效的
       less_than: 必須小於 %{count}
       less_than_or_equal_to: 必須小於或等於 %{count}
-      model_invalid: "校驗失敗: %{errors}"
       not_a_number: 不是數字
       not_an_integer: 必須是整數
       odd: 必須是奇數
-      required: 必須存在
+      record_invalid: '校驗失敗: %{errors}'
+      restrict_dependent_destroy:
+        one: 由於 %{record} 需要此記錄，所以無法移除記錄
+        many: 由於 %{record} 需要此記錄，所以無法移除記錄
       taken: 已經被使用
       too_long:
         one: 過長（最長是一個字）
@@ -210,7 +202,7 @@ zh-TW:
   time:
     am: 上午
     formats:
-      default: "%Y年%m月%d日 %A %H:%M:%S %Z"
-      long: "%Y年%m月%d日 %H:%M"
-      short: "%m月%d日 %H:%M"
+      default: "%Y年%b%d日 %A %H:%M:%S %Z"
+      long: "%Y年%b%d日 %H:%M"
+      short: "%b%d日 %H:%M"
     pm: 下午
