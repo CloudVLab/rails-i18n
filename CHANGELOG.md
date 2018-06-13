@@ -1,3 +1,11 @@
+## 5.1.1 - Qwiklabs
+- Forked from upstream @5.1.1 (2018-06-13)
+- Pulled changes from CloudVLab/rails-i18n, branch rails-4-x:
+  - Change :ru pluralization to one_other
+  - Add time.formats.date to Qwiklabs locales
+  - Add zh (from zh-CN)
+    - Change zh-TW to zh_TW, pt-BR to pt_BR
+
 ## 5.1.1 (2018-02-26)
 - Fix #767 (New Chinese pluralization rules break stuff)
 
