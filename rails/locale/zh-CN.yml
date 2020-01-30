@@ -72,6 +72,7 @@ zh-CN:
       over_x_years: "%{count} 年多"
       x_seconds: "%{count} 秒"
       x_minutes: "%{count} 分钟"
+      x_hours: "%{count} 小时"
       x_days: "%{count} 天"
       x_months: "%{count} 个月"
       x_years: "%{count} 年"
