@@ -179,4 +179,5 @@ zh-CN:
       default: "%Y年%m月%d日 %A %H:%M:%S %Z"
       long: "%Y年%m月%d日 %H:%M"
       short: "%m月%d日 %H:%M"
+      date: "%Y-%m-%d"
     pm: 下午
