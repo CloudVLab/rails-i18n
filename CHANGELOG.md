@@ -1,3 +1,12 @@
+## 6.0.0 - Qwiklabs
+- Forked from svenfuchs/master @6.0.0 (2020-01-30)
+- Pulled changes from CloudVLab/rails-i18n, branch rails-5-x:
+  - Change :ru pluralization to one\_other
+  - Add datetime.distance\_in\_words.x\_hours to en locales
+  - Added x\_hours to: es, ja, ko, pt-BR, zh-CN, zh-TW
+  - Add time.formats.date to: de,en,es,fr,id,ja,ko,pt-BR,ru,tr,zh-CN,zh-TW
+  - Create locale files: pt\_BR.yml, zh.yml, zh\_TW.yml
+
 ## 6.0.0
 - Update rails-i18n.gemspec to use Railties 6.0.0
 - Add Malagasy (mg) locale
